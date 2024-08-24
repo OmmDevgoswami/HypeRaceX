@@ -1,18 +1,16 @@
-/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Full Page Setup */
 body, html {
     height: 100%;
     font-family: Arial, sans-serif;
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* Container */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -23,7 +21,6 @@ body, html {
     z-index: 1; /* Ensure container is on top */
 }
 
-/* Heading */
 .header {
     font-size: 9vw; /* Very large text size relative to viewport width */
     color: rgba(244, 189, 69, 0.5); /* Semi-transparent color */
@@ -40,7 +37,6 @@ body, html {
     text-shadow: 0 0 30px rgba(255, 78, 51, 0.7); /* Add glowing effect on hover */
 }
 
-/* Login Form */
 .login-form {
     background: #fff;
     border-radius: 8px;
@@ -110,7 +106,6 @@ body, html {
     background-color: #555;
 }
 
-/* Loading Overlay */
 .loading-overlay {
     position: fixed;
     top: 0;
@@ -138,7 +133,6 @@ body, html {
     100% { transform: rotate(360deg); }
 }
 
-/* Light/Dark Mode Styles */
 body.light-mode {
     background-color: #f0f0f0;
     color: #333;
@@ -148,10 +142,6 @@ body.dark-mode {
     background-color: #333;
     color: #f0f0f0;
 }
-
-
-
-
 
 .form-container {
     display: flex;
