@@ -1,4 +1,3 @@
-// Loading animation
 window.addEventListener('load', () => {
     document.querySelector('.loading-overlay').style.display = 'none';
 });
